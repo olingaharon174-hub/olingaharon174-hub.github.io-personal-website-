@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  background: #004aad;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('images/home.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+section h2 {
+  color: #004aad;
+  margin-bottom: 1rem;
+}
+
+section p {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.services video {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.member {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 220px;
+  padding: 1rem;
+}
+
+.member img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.contact-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-item span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.contact-item a:hover {
+    color: #23527c;
+}
